@@ -1,2 +1,21 @@
 *.class
-*.log
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+.idea/*
+*.iml
+*.ipr
+*.iws
+project/*
+
+# Mac
+.DS_Store
+
+#Build
+target/
+.ensime
+.ensime_cache/
